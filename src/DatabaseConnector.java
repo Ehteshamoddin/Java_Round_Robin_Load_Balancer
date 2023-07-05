@@ -5,8 +5,8 @@ import java.util.List;
 
 public class DatabaseConnector {
     private static final String DB_URL = "jdbc:mysql://localhost/load_balancer_db?useSSL=false";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "Ehte77@x";
+    private static final String USERNAME = "";
+    private static final String PASSWORD = "";
 
     public static List<Worker> getWorkersFromDatabase() {
         List<Worker> workers = new ArrayList<>();
